@@ -1,6 +1,22 @@
 {
+  "name": "est",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gisselle-marthe/est.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gisselle-marthe/est/issues"
+  },
+  "homepage": "https://github.com/Gisselle-marthe/est#readme",
   "dependencies": {
     "sass": "^1.62.1"
   }
-  
 }
