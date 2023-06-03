@@ -33,6 +33,11 @@ p {
   background-color: #0C0C0D;
 }
 
+.path-gradient-purple {
+  background: rgb(38, 38, 38);
+  background: linear-gradient(90deg, #262626 24%, #292729 39%, #332831 52%, #452b3e 64%, #5d2f51 75%, #7c346a 86%, #a23a88 96%, #b23d94 100%);
+}
+
 .card-asistencia-contenedor {
   margin: 162px 13px;
   align-content: center;
@@ -74,4 +79,31 @@ p {
   margin-top: -120px;
   margin-left: 21px;
   width: 90%;
+}
+
+.list-group-hrs {
+  margin-bottom: 232px;
+  margin-top: 125px;
+  margin-left: 21px;
+  width: 90%;
+}
+
+.text-list-hrs {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.margin-list-hrs {
+  margin-bottom: -16px;
+}
+
+.text-span-hrs {
+  margin-top: -44px;
+  margin-left: 65px;
+}
+
+.list-group-item.active {
+  border-color: darkmagenta;
 }
